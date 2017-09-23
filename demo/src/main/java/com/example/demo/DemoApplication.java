@@ -12,7 +12,9 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		
 		MathFunctions function=new MathFunctions();
-		//System.out.println(function.add(15, 10));
+		System.out.println(function.add(15, 10));
 		System.out.println(function.sub(15,10));
+		
+		System.out.println("Making the changes after code is pushed to remote repository");
 	}
 }
